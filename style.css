@@ -25,7 +25,7 @@
   position: relative;
   width: 300px;
   height: 400px;
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+/*  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);*/
   filter: grayscale(80%);
   transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
   border-radius: 15px;
@@ -35,7 +35,7 @@
 .swiper .swiper-slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .swiper .swiper-slide .info {
   width: 100%;

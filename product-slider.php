@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Latest Products Slider
  * Description: Displays the latest WooCommerce products using Swiper.js in a responsive slider.
  * Version: 1.0
- * Author: WP Design LAB
+ * Author: WPDESIN LAB
  * Requires at least: 5.0
  * Tested up to: 6.5
  * WC requires at least: 4.0
@@ -68,11 +68,17 @@ function wc_slider_enqueue_assets() {
 
 // Shortcode to display the slider
 // Register multiple shortcodes with dynamic parameters
+
 add_shortcode('latest_products_slider', 'wc_slider_shortcode');
 add_shortcode('featured_products_slider', 'wc_slider_shortcode');
 add_shortcode('products_slider', 'wc_slider_shortcode');
 
 function wc_slider_shortcode($atts) {
+    // 🔴 ADD THIS RIGHT HERE — FIRST LINE IN THE FUNCTION
+    if (is_admin()) {
+        return ''; // Or use a placeholder (see below)
+    }
+
     // Default attributes
     $atts = shortcode_atts(array(
         'limit'     => -1,
