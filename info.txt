@@ -1,0 +1,103 @@
+Plugin Information Document
+Plugin Name:
+WooCommerce Latest Products Slider
+
+Version:
+1.0.0 (Example – update as needed)
+
+Author:
+[Your Name / Company Name]
+
+Requires at least:
+WordPress 5.6
+WooCommerce 4.0+
+Elementor (Recommended)
+
+Tested up to:
+WordPress 6.5
+WooCommerce 8.0
+
+Stable tag:
+1.0.0
+
+License:
+GPLv2 or later
+
+Download URL:
+[Insert Plugin Download Link Here]
+
+Overview
+The WooCommerce Latest Products Slider plugin allows you to easily display dynamic, responsive product sliders on your WordPress site. Whether you want to showcase your latest arrivals, featured items, or products on sale, this plugin provides simple shortcodes that work seamlessly with the Gutenberg editor, Elementor, and any standard WordPress page or widget area.
+
+Perfect for eCommerce stores using WooCommerce who want to enhance product visibility with beautiful, mobile-friendly sliders — no coding required!
+
+Key Features
+✅ Display latest, featured, or on-sale products in a sleek slider
+✅ Fully responsive & mobile-optimized design
+✅ Works with Gutenberg, Elementor, and classic editor
+✅ Easy shortcode-based integration
+✅ Customize product limit, category, order, and type
+✅ Lightweight and fast-loading
+✅ Compatible with all major themes
+
+How to Use the Plugin
+✅ Step 1: Install & Activate the Plugin
+Go to WordPress Dashboard > Plugins > Add New.
+Click "Upload Plugin" and choose the woocommerce-latest-products-slider.zip file.
+Click Install Now, then Activate.
+Ensure WooCommerce is installed and active.
+✅ Step 2: Use Shortcodes in Gutenberg Editor
+You can insert a product slider anywhere using shortcodes:
+
+Edit any page/post using the Gutenberg editor.
+Add a Shortcode block.
+Insert one of the following shortcodes:
+🔹 Shortcode Examples:
+Show latest products (limit 6)
+[latest_products_slider limit="6"]
+Show featured products
+[featured_products_slider]
+Show products from a category, ordered by price
+[products_slider category="clothing" orderby="price"]
+Show products on sale
+[products_slider type="onsale"]
+📌 Tip: Adjust limit, category, orderby, and type attributes to suit your needs.
+
+✅ Step 3: Add Slider in Elementor
+Edit a page with Elementor.
+Add a Shortcode widget to your section.
+Paste any of the above shortcodes into the widget.
+Preview and publish!
+💡 The slider will automatically adapt to your site’s styling and remain fully responsive.
+
+✅ Step 4: Customize Display Options
+You can customize the slider output using the following shortcode attributes:
+
+limit
+Number of products to show
+limit="8"
+category
+Filter by product category slug
+category="electronics"
+orderby
+Sort by field (e.g., price, date, title)
+orderby="price"
+order
+Sorting order: ASC or DESC
+order="DESC"
+type
+Type of products:
+onsale
+,
+best_selling
+, etc.
+type="onsale"
+Example:
+[products_slider limit="4" category="shoes" orderby="date" order="DESC"] 
+
+Requirements
+✅ WordPress 5.6 or higher
+✅ WooCommerce 4.0 or higher (must be active)
+✅ PHP 7.4 or higher
+✅ Modern browser support for frontend display
+⚠️ Note: The plugin will not function without WooCommerce enabled. 
