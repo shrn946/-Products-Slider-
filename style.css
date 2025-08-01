@@ -4,7 +4,7 @@
   margin: 0;
  
   color: white;
-  font-family: "DM Mono", monospace;
+
 }
 
 .container-sl {
@@ -47,9 +47,9 @@
 }
 .swiper .swiper-slide .info h4 {
     margin: 0;
-    padding-bottom: 0;
+    padding-bottom: 3px;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .swiper .swiper-slide-active {
